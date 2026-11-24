@@ -347,3 +347,8 @@ Fluxo de branches estruturado conforme as métricas de avaliação do projeto:
 - **Persistência de Auditoria e Checkpointer**: Integrar `PostgresSaver` ou `SqliteSaver` no LangGraph para manter histórico multi-turno entre o analista de CS e o agente (permitindo resolver ambiguidades em uma segunda mensagem sem repetir a busca inicial).
 - **Autenticação JWT / RBAC na API do Agente**: Exigir token de autenticação do analista de CS no cabeçalho `Authorization` para registrar qual operador solicitou cada bonificação.
 - **Observabilidade com LangSmith / OpenTelemetry**: Adicionar rastreamento de latência por nó, consumo de tokens por requisição e alertas automáticos em caso de tentativas recorrentes de violação de teto.
+
+
+### Passo acessar Notion/Planner: WEB
+
+Link: https://selective-mass-e6a.notion.site/Planner-Projeto-Avaliativo-CS-CreditGuard-AI-4e3aba7b941d8296a8dd015ce5e7658b?pvs=143
