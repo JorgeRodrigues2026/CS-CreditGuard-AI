@@ -1,6 +1,7 @@
 # 🛡️ CS-CreditGuard AI — Agente Operacional de Customer Success B2B
 
 > **Projeto Avaliativo — [SCTEC C1] CT Aperfeiçoar | Agentes de IA (Módulo Único)**  
+> 🌐 **Site de apresentação:** https://jorgerodrigues2026.github.io/CS-CreditGuard-AI/  
 > Orquestração de Agente de IA com **LangChain**, **LangGraph**, **Pydantic** e **FastAPI (Uvicorn)**, gerenciado com **`uv`** e acompanhado de um **Painel Operacional & Simulador de Cenários em Streamlit**.
 
 ---
@@ -88,9 +89,11 @@ cs-creditguard-agent/
 │   └── mock_saas.py      # Servidor SaaS simulado para testes locais isolados (porta 8002)
 ├── dashboard/
 │   └── app.py            # Painel operacional Streamlit para ajustes e simulação
+├── docs/                 # Site de apresentação (GitHub Pages: index.html, style.css, assets/)
 ├── .env.example          # Template de variáveis de ambiente
 ├── .gitignore            # Exclusão de .env, .venv e arquivos temporários
 ├── pyproject.toml        # Manifesto de projeto e dependências gerenciado pelo uv
+├── requirements.txt      # Dependências fixadas (alternativa ao uv)
 ├── uv.lock               # Lockfile determinístico de pacotes
 └── README.md             # Documentação técnica e evidências de execução
 ```
@@ -107,8 +110,8 @@ cs-creditguard-agent/
 
 ### Passo 1: Clonar o repositório e instalar dependências com `uv`
 ```bash
-git clone https://github.com/JorgeRodrigues2026/cs-creditguard-agent.git
-cd cs-creditguard-agent
+git clone https://github.com/JorgeRodrigues2026/CS-CreditGuard-AI.git
+cd CS-CreditGuard-AI
 
 # Sincroniza o ambiente virtual isolado (.venv) a partir do pyproject.toml / uv.lock
 uv sync
@@ -119,7 +122,7 @@ uv sync
 ```
 
 ### Passo 2: Configurar variáveis de ambiente (`.env`)
-Crie o arquivo `.env` na raiz do projeto `cs-creditguard-agent` (nunca versione este arquivo):
+Crie o arquivo `.env` na raiz do projeto `CS-CreditGuard-AI` (nunca versione este arquivo):
 
 ```bash
 cat << 'EOF' > .env
